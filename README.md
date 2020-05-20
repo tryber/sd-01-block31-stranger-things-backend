@@ -16,6 +16,13 @@ Para realizar o deploy do meu backend, fiz o seguinte procedimento:
 
 `Adicione aqui os comandos utilizados, de maneira sequencial.`
 
+heroku create --remote hawkins
+heroku config:set upsideDown="false" --app morning-reaches-10338
+heroku create --remote upside-down
+heroku config:set upsideDown="true" --app evening-waters-77718
+git push hawkins master
+git push upside-down master
+
 ### 7 - Monitoramento
 
 Para conseguir realizar o monitoramento da minha API, fiz o seguinte procedimento:
