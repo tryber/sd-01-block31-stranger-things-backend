@@ -20,6 +20,8 @@ heroku create --remote hawkins
 heroku config:set upsideDown="false" --app morning-reaches-10338
 heroku create --remote upside-down
 heroku config:set upsideDown="true" --app evening-waters-77718
+git add .
+git commit -m 'Meu primeiro deploy no Heroku!'
 git push hawkins master
 git push upside-down master
 
@@ -27,4 +29,6 @@ git push upside-down master
 
 Para conseguir realizar o monitoramento da minha API, fiz o seguinte procedimento:
 
+pm2 link "CHAVE_PRIVADA_AQUI" 0f6fab5hd74n3qr
+pm2 plus
 `Adicione aqui os comandos utilizados, de maneira sequencial.`
