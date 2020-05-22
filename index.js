@@ -17,7 +17,7 @@ const strangerThingsService = new StrangerThingsService(
 app.use(cors());
 
 const upsideDown = process.env.DEMOGORGON;
-const stringToBoolean = JSON.parse('false');
+const stringToBoolean = JSON.parse(upsideDown);
 const hereIsTheUpsideDown = stringToBoolean;
 
 app.get('/', (req, res) => {
