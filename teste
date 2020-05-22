@@ -14,5 +14,3 @@ heroku config:set PM2_MACHINE_NAME=heroku-server
 
 heroku config:set PM2_PUBLIC_KEY="CHAVE_PUBLICA_AQUI" PM2_SECRET_KEY="CHAVE_PRIVADA_AQUI" --app deploy-backend-upsidedown-1223
 heroku config:set PM2_MACHINE_NAME=heroku-server
-
-
