@@ -14,23 +14,23 @@ Aqui você vai encontrar os locais para colocar suas repostas relativas aos requ
 
 Para realizar o deploy do meu backend, fiz o seguinte procedimento:
 
-`heroku create --remote hawkings deploy-backend-hawkings-1223`
-`heroku create --remote upside-down deploy-backend-upsidedown-1223`
+- `heroku create --remote hawkings deploy-backend-hawkings-1223`
+- `heroku create --remote upside-down deploy-backend-upsidedown-1223`
 
-`heroku config:set DEMOGORGON="false" --app deploy-backend-hawkings-1223`
-`heroku config:set DEMOGORGON="true" --app deploy-backend-upsidedown-1223`
-
-`git add .`
-`git commit -m "Iniciando deploy no projeto backend"`
-`git push hawkings gabriel-coruja-stranger-things-backend:master`
-`git push upside-down gabriel-coruja-stranger-things-backend:master`
+- `heroku config:set DEMOGORGON="false" --app deploy-backend-hawkings-1223`
+- `heroku config:set DEMOGORGON="true" --app deploy-backend-upsidedown-1223`
+ 
+- `git add .`
+- `git commit -m "Iniciando deploy no projeto backend"`  
+- `git push hawkings gabriel-coruja-stranger-things-backend:master`
+- `git push upside-down gabriel-coruja-stranger-things-backend:master`
 
 ### 7 - Monitoramento
 
 Para conseguir realizar o monitoramento da minha API, fiz o seguinte procedimento:
 
-`heroku config:set PM2_PUBLIC_KEY="CHAVE_PUBLICA_AQUI" PM2_SECRET_KEY="CHAVE_PRIVADA_AQUI" --app deploy-backend-hawkings-1223`
-`heroku config:set PM2_MACHINE_NAME=heroku-server`
+- `heroku config:set PM2_PUBLIC_KEY="CHAVE_PUBLICA_AQUI" PM2_SECRET_KEY="CHAVE_PRIVADA_AQUI" --app deploy-backend-hawkings-1223`
+- `heroku config:set PM2_MACHINE_NAME=heroku-server`
 
-`heroku config:set PM2_PUBLIC_KEY="CHAVE_PUBLICA_AQUI" PM2_SECRET_KEY="CHAVE_PRIVADA_AQUI" --app deploy-backend-upsidedown-1223`
-`heroku config:set PM2_MACHINE_NAME=heroku-server`
+- `heroku config:set PM2_PUBLIC_KEY="CHAVE_PUBLICA_AQUI" PM2_SECRET_KEY="CHAVE_PRIVADA_AQUI" --app deploy-backend-upsidedown-1223`
+- `heroku config:set PM2_MACHINE_NAME=heroku-server`
