@@ -17,7 +17,7 @@ const strangerThingsService = new StrangerThingsService(
 app.use(cors());
 
 const upsideDown = process.env.DEMOGORGON;
-const hereIsTheUpsideDown = new Boolean(upsideDown) || false;
+const hereIsTheUpsideDown = false;
 
 app.get('/', (req, res) => {
   const characters = strangerThingsService.search(
