@@ -34,3 +34,9 @@ Para conseguir realizar o monitoramento da minha API, fiz o seguinte procediment
 
 - `heroku config:set PM2_PUBLIC_KEY="CHAVE_PUBLICA_AQUI" PM2_SECRET_KEY="CHAVE_PRIVADA_AQUI" --app deploy-backend-upsidedown-1223`
 - `heroku config:set PM2_MACHINE_NAME=heroku-server --app deploy-backend-upsidedown-1223`
+
+### Deploys Links
+
+**Hawkings**: Segue o link para o mundo [real](https://deploy-backend-hawkings-1223.herokuapp.com/).
+
+**Upside-Down**: Segue o link para o mundo [invertido](https://deploy-backend-upsidedown-1223.herokuapp.com/).
