@@ -19,9 +19,9 @@ Para realizar o deploy do meu backend, fiz o seguinte procedimento:
 
 - `heroku config:set DEMOGORGON="false" --app deploy-backend-hawkings-1223`
 - `heroku config:set DEMOGORGON="true" --app deploy-backend-upsidedown-1223`
- 
+
 - `git add .`
-- `git commit -m "Iniciando deploy no projeto backend"`  
+- `git commit -m "Iniciando deploy no projeto backend"`
 - `git push hawkings gabriel-coruja-stranger-things-backend:master`
 - `git push upside-down gabriel-coruja-stranger-things-backend:master`
 
