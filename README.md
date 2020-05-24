@@ -16,6 +16,13 @@ Para realizar o deploy do meu backend, fiz o seguinte procedimento:
 
 `Adicione aqui os comandos utilizados, de maneira sequencial.`
 
+`heroku create --remote hawkins stranger-things-backend`
+`heroku create --remote upside-down st-backend-upside-down`
+
+`heroku config:set UpsideDown=false --app stranger-things-backend`
+`heroku config:set UpsideDown=true --app st-backend-upside-down`
+
+
 ### 7 - Monitoramento
 
 Para conseguir realizar o monitoramento da minha API, fiz o seguinte procedimento:
