@@ -15,14 +15,19 @@ Aqui você vai encontrar os locais para colocar suas repostas relativas aos requ
 Para realizar o deploy do meu backend, fiz o seguinte procedimento:
 
 `heroku create --remote hawkins stranger-things-backend`
+
 `heroku create --remote upside-down st-backend-upside-down`
 
 `heroku config:set UpsideDown=false --app stranger-things-backend`
+
 `heroku config:set UpsideDown=true --app st-backend-upside-down`
 
 `git add.`
+
 `git commit -m "Acho que foi"`
+
 `git push upside-down henrique-stranger-things-backend:master`
+
 `git push hawkins henrique-stranger-things-backend:master`
 
 ### 7 - Monitoramento
