@@ -4,7 +4,7 @@ Aqui você vai encontrar os locais para colocar suas repostas relativas aos requ
 
 **Lembre-se**: coloque as respostas apenas dos requisitos que contém o seguinte direcionamento:
 
-  - Adicione os comandos utilizados, de maneira sequencial, ao README do backend
+  - Adicione os comandos utilizados, de maneira sequencial, ao README do backend.
 
 **Nota**: Este direcionamento está presente no [repositório](https://github.com/tryber/sd-01-block31-stranger-things) em que os requisitos do projeto são destrinchados.
 
