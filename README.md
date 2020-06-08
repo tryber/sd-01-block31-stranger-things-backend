@@ -22,8 +22,8 @@ heroku create --remote upside-down
 heroku config:set upsideDown="true" --app evening-waters-77718
 git add .
 git commit -m 'Meu primeiro deploy no Heroku!'
-git push hawkins master
-git push upside-down master
+git push hawkins antoniopaolillo-projeto31-backend:master
+git push upside-down antoniopaolillo-projeto31-backend:master
 
 ### 7 - Monitoramento
 
