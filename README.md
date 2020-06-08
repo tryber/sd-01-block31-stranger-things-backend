@@ -16,8 +16,23 @@ Para realizar o deploy do meu backend, fiz o seguinte procedimento:
 
 `Adicione aqui os comandos utilizados, de maneira sequencial.`
 
+heroku create --remote hawkins
+heroku config:set upsideDown="false" --app morning-reaches-10338
+heroku create --remote upside-down
+heroku config:set upsideDown="true" --app evening-waters-77718
+git add .
+git commit -m 'Meu primeiro deploy no Heroku!'
+git push hawkins antoniopaolillo-projeto31-backend:master
+git push upside-down antoniopaolillo-projeto31-backend:master
+
 ### 7 - Monitoramento
 
 Para conseguir realizar o monitoramento da minha API, fiz o seguinte procedimento:
+
+heroku config:set PM2_PUBLIC_KEY="CHAVE_PUBLICA_AQUI" PM2_SECRET_KEY="CHAVE_PRIVADA_AQUI" --app morning-reaches-10338
+heroku config:set PM2_MACHINE_NAME=heroku-server --app morning-reaches-10338
+
+heroku config:set PM2_PUBLIC_KEY="CHAVE_PUBLICA_AQUI" PM2_SECRET_KEY="CHAVE_PRIVADA_AQUI" --app evening-waters-77718
+heroku config:set PM2_MACHINE_NAME=heroku-server --app evening-waters-77718
 
 `Adicione aqui os comandos utilizados, de maneira sequencial.`
