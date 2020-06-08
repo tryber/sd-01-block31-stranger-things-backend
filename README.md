@@ -29,6 +29,10 @@ git push upside-down master
 
 Para conseguir realizar o monitoramento da minha API, fiz o seguinte procedimento:
 
-pm2 link "CHAVE_PRIVADA_AQUI" 0f6fab5hd74n3qr
-pm2 plus
+heroku config:set PM2_PUBLIC_KEY="CHAVE_PUBLICA_AQUI" PM2_SECRET_KEY="CHAVE_PRIVADA_AQUI" --app morning-reaches-10338
+heroku config:set PM2_MACHINE_NAME=heroku-server --app morning-reaches-10338
+
+heroku config:set PM2_PUBLIC_KEY="CHAVE_PUBLICA_AQUI" PM2_SECRET_KEY="CHAVE_PRIVADA_AQUI" --app evening-waters-77718
+heroku config:set PM2_MACHINE_NAME=heroku-server --app evening-waters-77718
+
 `Adicione aqui os comandos utilizados, de maneira sequencial.`
