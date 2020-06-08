@@ -18,7 +18,7 @@ app.use(cors());
 const { upsideDown } = process.env;
 const stringToBoolean = (upsideDown === 'true');
 const hereIsTheUpsideDown = stringToBoolean;
-
+console.log(hereIsTheUpsideDown);
 app.get('/', (req, res) => {
   const characters = strangerThingsService.search(
     req.query,
