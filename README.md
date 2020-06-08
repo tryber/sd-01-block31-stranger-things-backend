@@ -22,7 +22,7 @@ Para realizar o deploy do meu backend, fiz o seguinte procedimento:
 
 `heroku config:set TRYBE="true" --app deploy-backend-upsidedown--15`
 
-`git add --all` 
+`git add --all`
 
 `git commit -m "Iniciando deploy no projeto backend"`
 
